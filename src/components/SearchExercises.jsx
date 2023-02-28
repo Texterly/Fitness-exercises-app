@@ -25,7 +25,7 @@ const SearchExercises = () => {
         mb="50px"
         textAlign="center"
       >
-        Awesome Exercises You <br /> Should Know
+        Awesome Exercises You <br /> Should Knows
       </Typography>
       <Box position="relative" mb="72px">
         <TextField
