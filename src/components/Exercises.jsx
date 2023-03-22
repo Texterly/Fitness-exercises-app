@@ -17,7 +17,7 @@ const Exercises = ({ exercises, setExercises, bodyPart }) => {
         justifyContent="center"
       >
         {exercises.map((exercise, index) => (
-          <p>{exercise.name}</p>
+          <p>{exercise.name}name of exercise</p>
         ))}
       </Stack>
     </Box>
