@@ -1,7 +1,7 @@
 import React from "react";
 
 const ExerciseCard = () => {
-  return <div>Exercise</div>;
+  return <div>Exercises</div>;
 };
 
 export default ExerciseCard;
