@@ -41,7 +41,7 @@ const ExerciseCard = ({ exercise }) => {
         textTransform="capitalize"
         fontSize="22px"
       >
-        {exercise.name} s
+        {exercise.name}
       </Typography>
     </Link>
   );
