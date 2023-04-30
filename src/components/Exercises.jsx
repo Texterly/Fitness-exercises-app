@@ -45,7 +45,8 @@ const Exercises = ({ exercises, setExercises, bodyPart }) => {
             onChange={paginate}
             size="large"
           />
-        )}
+        )}{" "}
+        a
       </Stack>
     </Box>
   );
