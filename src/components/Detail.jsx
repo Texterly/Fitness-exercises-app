@@ -54,6 +54,7 @@ const Detail = ({ exerciseDetail }) => {
             <Typography variant="h5">{item.name}</Typography>
           </Stack>
         ))}
+        a
       </Stack>
     </Stack>
   );
