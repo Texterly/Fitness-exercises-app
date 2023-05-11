@@ -2,6 +2,7 @@ import React from "react";
 import { Box, Stack, Typography } from "@mui/material";
 
 const ExerciseVideos = ({ exerciseVideos, name }) => {
+  if (!exerciseVideos.length) return "Loading...";
   return (
     <Box sx={{ marginTop: { lg: "200px", xs: "20px" } }} p="20px">
       <Typography variant="h3" mb="33px">
@@ -28,7 +29,7 @@ const ExerciseVideos = ({ exerciseVideos, name }) => {
             target="_blank"
             rel="noreferrer"
           >
-            <img src={item.video.thubmnails[0].url} alt={item.video.title} />
+            <img src={item.video.thumbnails[0].url} alt={item.video.title} />
           </a>
         ))}
       </Stack>
