@@ -29,7 +29,8 @@ const ExerciseVideos = ({ exerciseVideos, name }) => {
             target="_blank"
             rel="noreferrer"
           >
-            <img src={item.video.thumbnails[0].url} alt={item.video.title} />a
+            <img src={item.video.thumbnails[0].url} alt={item.video.title} />
+            aЫВ
           </a>
         ))}
       </Stack>
